@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.pascalos99</groupId>
+  <artifactId>BstarInternship</artifactId>
+  <version>1.0.0</version>
+  <name>New Advances in B*</name>
+  
+  <properties>
+  	<maven.compiler.release>17</maven.compiler.release>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.abego.treelayout</groupId>
+  		<artifactId>org.abego.treelayout.demo</artifactId>
+  		<version>1.0.3</version>
+  		<scope>compile</scope>
+  	</dependency>
+	<dependency>
+	    <groupId>org.ejml</groupId>
+	    <artifactId>ejml-simple</artifactId>
+	    <version>0.42</version>
+	    <scope>compile</scope>
+	</dependency>
+  </dependencies>
+  
+  <build>
+  	<plugins>
+		<plugin>
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-compiler-plugin</artifactId>
+		    <version>3.14.0</version>
+		    <configuration>
+		        <release>18</release>
+		    </configuration>
+		</plugin>
+  	</plugins>
+  </build>
+</project>
